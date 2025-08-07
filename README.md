@@ -1,0 +1,1 @@
+This application was developed by three computer engineers as a graduation project to offer a more advanced and detailed solution for educational apps aimed at children with autism. Still in development, the app will be regularly updated upon completion to better meet users' needs.
