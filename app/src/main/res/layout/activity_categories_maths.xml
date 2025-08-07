@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAB74A"
+    tools:context=".ui.maths.CategoriesMathsActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:text="ETKİNLİK SEÇİNİZ"
+        android:textAlignment="center"
+        android:textColor="#FAB74A"
+        android:background="@drawable/background_button"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/learnNumbersButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="gravity"
+            android:background="@drawable/rounded_button"
+            android:text="sayılarla animasyon"
+            android:textColor="#FAB74A"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/numberCountingButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_button"
+            android:text="SAYI SAYMA"
+            android:textAlignment="gravity"
+            android:layout_marginBottom="32dp"
+            android:textColor="#FAB74A"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/additionSubtractionButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/rounded_button"
+            android:text=" TOPLAMA VE ÇIKARMA"
+            android:textColor="#FAB74A"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/shapeRecognitionButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/rounded_button"
+            android:text=" Geometrik şekiller"
+            android:textColor="#FAB74A"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
